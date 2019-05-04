@@ -9,5 +9,6 @@ class TestAtom {
 		console.log('%cTestAtom', 'color: lightgreen');
 		
 		new TestAtomCreate().test();
+		new TestAtomGetMass().test();
 	}
 }

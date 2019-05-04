@@ -6,6 +6,8 @@ class TestAtomCreate {
 	}
 
 	test() {
+		console.log('%c Create', 'color: orange')
+
 		this.testCreateHydrogene1();
 		this.testCreateCarbon12();
 
